@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marleen Bruwer Creative Solutions – Video Editing & Drone Filming</title>
+  <meta name="description" content="Professional video editing and drone filming services by Marleen Bruwer. Send your footage or let us capture it for you. Fast, creative, and professional." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            base: {
+              50: '#faf9f7',
+              100: '#f5f2ec',
+              200: '#e8e1d6',
+              300: '#d6c8b8',
+              400: '#bfa793',
+              500: '#a98676',
+              600: '#8c6b5f',
+              700: '#6f544b',
+              800: '#4f3d36',
+              900: '#2f2421',
+            },
+            accent: {
+              50: '#f2f9f9',
+              100: '#e0f1f1',
+              200: '#bddedd',
+              300: '#8bc1c1',
+              400: '#5fa3a4',
+              500: '#4a898a',
+              600: '#3e6e70',
+              700: '#35595a',
+              800: '#2b4546',
+              900: '#1e2f30',
+            },
+            highlight: '#e3b23c',
+          },
+          fontFamily: { sans: ['Inter', 'ui-sans-serif', 'system-ui'] },
+        },
+      },
+    };
+  </script>
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="font-sans text-base-900 bg-base-50">
+  <!-- NAV -->
+  <header class="fixed z-40 w-full bg-base-50/80 backdrop-blur border-b border-base-200">
+    <div class="max-w-6xl mx-auto px-4 md:px-6 flex items-center justify-between h-16">
+      <a href="#top" class="text-lg font-semibold tracking-tight">Marleen Bruwer<span class="text-accent-500">.</span></a>
+      <nav class="hidden md:flex gap-8 text-sm">
+        <a href="#services" class="hover:text-accent-500">Services</a>
+        <a href="#portfolio" class="hover:text-accent-500">Portfolio</a>
+        <a href="#about" class="hover:text-accent-500">About</a>
+        <a href="#contact" class="hover:text-accent-500">Contact</a>
+      </nav>
+      <button id="mobileBtn" class="md:hidden" aria-label="Open menu">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 5.25h16.5M3.75 12h16.5m-16.5 6.75h16.5" />
+        </svg>
+      </button>
+    </div>
+    <div id="mobileMenu" class="md:hidden hidden border-t border-base-200 bg-base-50">
+      <nav class="flex flex-col px-4 py-3 space-y-3 text-sm">
+        <a href="#services" class="hover:text-accent-500">Services</a>
+        <a href="#portfolio" class="hover:text-accent-500">Portfolio</a>
+        <a href="#about" class="hover:text-accent-500">About</a>
+        <a href="#contact" class="hover:text-accent-500">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section id="top" class="pt-32 pb-24 bg-base-100">
+    <div class="max-w-6xl mx-auto px-4 md:px-6 grid md:grid-cols-2 gap-12 items-center">
+      <div>
+        <h1 class="text-4xl md:text-5xl font-semibold leading-tight text-base-900">
+          Creative Stories, <span class="text-accent-500">Professionally Edited</span>
+        </h1>
+        <p class="mt-6 text-base text-base-700 max-w-prose">
+          Send me your footage or let me capture it — including cinematic drone shots. I turn raw clips into compelling videos for brands, events, and creators.
+        </p>
+        <div class="mt-8 flex flex-wrap gap-4">
+          <a href="#contact" class="inline-block bg-accent-500 text-white px-6 py-3 rounded-md text-sm font-medium hover:bg-accent-600 transition">Start a Project</a>
+          <a href="#portfolio" class="inline-block text-accent-600 hover:text-accent-700 text-sm font-medium">View Portfolio →</a>
+        </div>
+      </div>
+      <div class="relative">
+        <div class="rounded-xl overflow-hidden shadow-xl border border-base-200 aspect-video">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/suxb3Is0Kwg" title="Showreel" allowfullscreen></iframe>
+        </div>
+        <span class="absolute -top-6 -left-6 text-6xl opacity-10 select-none">✂️</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="py-20">
+    <div class="max-w-6xl mx-auto px-4 md:px-6">
+      <h2 class="text-3xl font-semibold mb-10">Services</h2>
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="p-6 rounded-xl bg-white shadow-sm border border-base-200">
+          <div class="mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="w-8 h-8 text-accent-500">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5M4.5 10.5h15a2.25 2.25 0 0 1 2.25 2.25v6.75A2.25 2.25 0 0 1 19.5 21.75h-15A2.25 2.25 0 0 1 2.25 19.5v-6.75A2.25 2.25 0 0 1 4.5 10.5z" />
+            </svg>
+          </div>
+          <h3 class="text-lg font-medium mb-2">Edit-Only Packages</h3>
+          <p class="text-sm text-base-700">Have raw footage? I’ll craft it into a polished story with pacing, music, color, and graphics.</p>
+        </div>
+        <div class="p-6 rounded-xl bg-white shadow-sm border border-base-200">
+          <div class="mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="w-8 h-8 text-accent-500">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 3v11.25A2.25 2.25 0 0 0 6 16.5h11.25M3.75 3 12 10.5m0 0 8.25-7.5M12 10.5v10.125M21 12.75v6.375a2.25 2.25 0 0 1-2.25 2.25H12" />
+            </svg>
+          </div>
+          <h3 class="text-lg font-medium mb-2">Full Production & Drone</h3>
+          <p class="text-sm text-base-700">On-location filming, including licensed drone operations for unique aerial perspectives.</p>
+        </div>
+        <div class="p-6 rounded-xl bg-white shadow-sm border border-base-200">
+          <div class="mb-4">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" class="w-8 h-8 text-accent-500">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 12.75 9 21m0 0h6m-6 0 6.75-8.25M21.75 12l-4.5 6" />
+            </svg>
+          </div>
+          <h3 class="text-lg font-medium mb-2">Social-First Edits</h3>
+          <p class="text-sm text-base-700">Short-form, vertical, subtitle-ready content optimized for Instagram, TikTok, and YouTube Shorts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section id="portfolio" class="py-20 bg-base-100">
+    <div class="max-w-6xl mx-auto px-4 md:px-6">
+      <h2 class="text-3xl font-semibold mb-10">Portfolio</h2>
+      <div class="grid md:grid-cols-2 gap-8">
+        <div class="aspect-video rounded-xl overflow-hidden shadow-md border border-base-200">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/suxb3Is0Kwg" title="Portfolio video 1" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="aspect-video rounded-xl overflow-hidden shadow-md border border-base-200">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/lcEGPpX1gMw" title="Portfolio video 2" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="aspect-video rounded-xl overflow-hidden shadow-md border border-base-200">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/744mys7pevg" title="Portfolio video 3" allowfullscreen loading="lazy"></iframe>
+        </div>
+        <div class="aspect-video rounded-xl overflow-hidden shadow-md border border-base-200">
+          <iframe class="w-full h-full" src="https://www.youtube.com/embed/rQyQxSSEZf8" title="Portfolio video 4" allowfullscreen loading="lazy"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="py-20">
+    <div class="max-w-4xl mx-auto px-4 md:px-6 text-base-800">
+      <h2 class="text-3xl font-semibold mb-6">About</h2>
+      <p class="leading-7">
+        I'm Marleen — a video editor and creator who loves turning raw clips into stories that connect. Whether it's a brand launch, travel story, wedding, or social campaign, I bring a calm, organized workflow and a creative eye to every project.
+      </p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="py-20 bg-base-100">
+    <div class="max-w-4xl mx-auto px-4 md:px-6">
+      <h2 class="text-3xl font-semibold mb-10">Let’s work together</h2>
+
+      <!-- Contact block -->
+      <div class="grid md:grid-cols-2 gap-10">
+        <div class="space-y-4 text-base-800">
+          <p>Give me a sense of your project: goals, footage available, target platforms, and deadlines. I’ll reply with options and a quote.</p>
+          <p><strong>Email:</strong> <a class="text-accent-600 hover:text-accent-700" href="mailto:contact@marleenbruwer.com">contact@marleenbruwer.com</a></p>
+          <div class="flex gap-4 mt-6">
+            <!-- Social icons -->
+            <a href="https://www.instagram.com/marleen.bruwer/?hl=en" target="_blank" aria-label="Instagram @marleen.bruwer" class="text-base-600 hover:text-accent-500">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.427.403.59.216 1.013.477 1.457.92.443.444.704.868.92 1.457.163.457.347 1.257.403 2.427.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.427a3.57 3.57 0 0 1-.92 1.457 3.57 3.57 0 0 1-1.457.92c-.457.163-1.257.347-2.427.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.427-.403a3.57 3.57 0 0 1-1.457-.92 3.57 3.57 0 0 1-.92-1.457c-.163-.457-.347-1.257-.403-2.427C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.427.216-.59.477-1.013.92-1.457.444-.443.868-.704 1.457-.92.457-.163 1.257-.347 2.427-.403C8.416 2.175 8.796 2.163 12 2.163Zm0 1.62c-3.17 0-3.548.012-4.796.069-1.027.047-1.58.218-1.948.363-.49.19-.84.417-1.208.785-.368.368-.595.718-.785 1.208-.145.368-.316.921-.363 1.948-.057 1.248-.069 1.626-.069 4.796s.012 3.548.069 4.796c.047 1.027.218 1.58.363 1.948.19.49.417.84.785 1.208.368.368.718.595 1.208.785.368.145.921.316 1.948.363 1.248.057 1.626.069 4.796.069s3.548-.012 4.796-.069c1.027-.047 1.58-.218 1.948-.363.49-.19.84-.417 1.208-.785.368-.368.595-.718.785-1.208.145-.368.316-.921.363-1.948.057-1.248.069-1.626.069-4.796s-.012-3.548-.069-4.796c-.047-1.027-.218-1.58-.363-1.948a2.75 2.75 0 0 0-.785-1.208 2.75 2.75 0 0 0-1.208-.785c-.368-.145-.921-.316-1.948-.363-1.248-.057-1.626-.069-4.796-.069Zm0 3.905a5.332 5.332 0 1 1 0 10.664 5.332 5.332 0 0 1 0-10.664Zm0 8.79a3.458 3.458 0 1 0 0-6.916 3.458 3.458 0 0 0 0 6.916Zm5.708-8.99a1.244 1.244 0 1 1-2.488 0 1.244 1.244 0 0 1 2.488 0Z"/></svg>
+            </a>
+            <a href="https://www.instagram.com/each_to_their_drone" target="_blank" aria-label="Instagram @each_to_their_drone" class="text-base-600 hover:text-accent-500">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 1.17.056 1.97.24 2.427.403.59.216 1.013.477 1.457.92.443.444.704.868.92 1.457.163.457.347 1.257.403 2.427.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.056 1.17-.24 1.97-.403 2.427a3.57 3.57 0 0 1-.92 1.457 3.57 3.57 0 0 1-1.457.92c-.457.163-1.257.347-2.427.403-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.17-.056-1.97-.24-2.427-.403a3.57 3.57 0 0 1-1.457-.92 3.57 3.57 0 0 1-.92-1.457c-.163-.457-.347-1.257-.403-2.427C2.175 15.584 2.163 15.204 2.163 12s.012-3.584.07-4.85c.056-1.17.24-1.97.403-2.427.216-.59.477-1.013.92-1.457.444-.443.868-.704 1.457-.92.457-.163 1.257-.347 2.427-.403C8.416 2.175 8.796 2.163 12 2.163Zm0 1.62c-3.17 0-3.548.012-4.796.069-1.027.047-1.58.218-1.948.363-.49.19-.84.417-1.208.785-.368.368-.595.718-.785 1.208-.145.368-.316.921-.363 1.948-.057 1.248-.069 1.626-.069 4.796s.012 3.548.069 4.796c.047 1.027.218 1.58.363 1.948.19.49.417.84.785 1.208.368.368.718.595 1.208.785.368.145.921.316 1.948.363 1.248.057 1.626.069 4.796.069s3.548-.012 4.796-.069c1.027-.047 1.58-.218 1.948-.363.49-.19.84-.417 1.208-.785.368-.368.595-.718.785-1.208.145-.368.316-.921.363-1.948.057-1.248.069-1.626.069-4.796s-.012-3.548-.069-4.796c-.047-1.027-.218-1.58-.363-1.948a2.75 2.75 0 0 0-.785-1.208 2.75 2.75 0 0 0-1.208-.785c-.368-.145-.921-.316-1.948-.363-1.248-.057-1.626-.069-4.796-.069Zm0 3.905a5.332 5.332 0 1 1 0 10.664 5.332 5.332 0 0 1 0-10.664Zm0 8.79a3.458 3.458 0 1 0 0-6.916 3.458 3.458 0 0 0 0 6.916Zm5.708-8.99a1.244 1.244 0 1 1-2.488 0 1.244 1.244 0 0 1 2.488 0Z"/></svg>
+            </a>
+            <a href="https://www.youtube.com/@MarleenB" target="_blank" aria-label="YouTube @MarleenB" class="text-base-600 hover:text-accent-500">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-7 h-7"><path d="M21.8 8.001a2.751 2.751 0 0 0-1.936-1.946C18.077 5.5 12 5.5 12 5.5s-6.077 0-7.864.555A2.751 2.751 0 0 0 2.2 8.001 28.49 28.49 0 0 0 1.5 12c-.003 1.34.1 2.679.3 4.001a2.751 2.751 0 0 0 1.936 1.946C5.923 18.5 12 18.5 12 18.5s6.077 0 7.864-.555a2.751 2.751 0 0 0 1.936-1.946 28.49 28.49 0 0 0 .3-4.001 28.49 28.49 0 0 0-.3-3.998ZM9.75 14.568V9.432L14.5 12l-4.75 2.568Z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="py-10 text-center text-xs text-base-600">
+    <p>&copy; 2025 Marleen Bruwer Creative Solutions. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('mobileBtn');
+    const menu = document.getElementById('mobileMenu');
+    btn && btn.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+    });
+  </script>
+</body>
+</html>
